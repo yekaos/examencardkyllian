@@ -1,18 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
-const IndexPage = () => (
+const Contacto = () => (
   <Layout>
-  <nav>
-    <ul>
+        <nav>
+      <ul>
         <li>
         <Link to="/">Inicio</Link>
         </li>
@@ -21,8 +16,11 @@ const IndexPage = () => (
         </li>
       </ul>
     </nav>
+    <h1>Esto es la página de contacto</h1>
+    <p>Welcome to page 2</p>
   </Layout>
 )
-export const Head = () => <Seo title="Home" />
 
-export default IndexPage
+export const Head = () => <Seo title="Page two" />
+
+export default Contacto

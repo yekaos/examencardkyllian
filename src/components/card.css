@@ -1,0 +1,22 @@
+.contenedor-card{
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  text-align: center;
+  height: 100%;
+}
+.cardexamen {
+  background-color: var(--fondo-terciario);
+  max-width: 300px;
+  font-family: var(--fuente-principal);
+}
+.botonexamen {
+  background-color: var(--fondo-primario);
+  color: var(--fondo-bg);
+  height: 48px;
+  width: 96px;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--fuente-principal);
+  cursor: pointer;
+}

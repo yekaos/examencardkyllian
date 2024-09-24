@@ -17,7 +17,7 @@ const Contacto = () => (
       </ul>
     </nav>
     <h1>Esto es la página de contacto</h1>
-    <p>Welcome to page 2</p>
+    <p>Hola, puedes encontrarnos en este email: contacto@contacto.com</p>
   </Layout>
 )
 

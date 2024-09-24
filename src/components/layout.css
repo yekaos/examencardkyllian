@@ -1,7 +1,7 @@
 :root {
   /* COLORES */
   /* Fondos */
-  --fondo-bg: #FFFFFF;
+  --fondo-background: #FFFFFF;
   --fondo-primario: #007acc;
   --fondo-secundario: #00538f;
   --fondo-terciario: #e5f6ff;
@@ -18,12 +18,6 @@
   /* TIPOGRAFÍA */
   /* Fuentes */
   --fuente-principal: Roboto, sans-serif;
-  --fuente-secundaria: Montserrat, sans-serif;
-  /* Tamaño texto */
-  --Titulo-principal: 24px;
-  --Titulo-secundario: 20px;
-  --texto-regular: 16px;
-  --texto-secundario: 14px;
 }
 /* MEDIA QUERIES */
 @media (max-width: 768px) {

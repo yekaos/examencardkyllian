@@ -1,22 +1,33 @@
 .contenedor-card{
   display: flex;
-  justify-content: space-evenly;
-  border-radius: 8px;
-  text-align: center;
-  height: 100%;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 .cardexamen {
   background-color: var(--fondo-terciario);
+  border: solid var(--bordes);
+  border-radius: 8px;
   max-width: 300px;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
   font-family: var(--fuente-principal);
 }
 .botonexamen {
   background-color: var(--fondo-primario);
-  color: var(--fondo-bg);
+  color: var(--fondo-background);
   height: 48px;
   width: 96px;
   border: none;
   border-radius: 8px;
   font-family: var(--fuente-principal);
   cursor: pointer;
+  font-size: 20px;
+}
+.link{
+  text-decoration: none;
+  color: var(--fondo-background);
+  font-family: var(--fuente-principal);
+  font-size: 20px;
 }

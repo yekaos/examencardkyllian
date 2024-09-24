@@ -1,23 +1,20 @@
-import React from "react"
+import React from "react";
 import './card.css'
-const Cards = ({
-  imagen, 
-  boton = '+ info', 
-  titulo,
-  descripcion,
-  enlace
-})=>{
-    return(
-        <>
-        <div className="cardexamen">
-            <h2>{titulo}</h2>
-            {imagen}
-            <p>{descripcion}</p>
-            <a href={enlace} target="_blank">
-            <button className="botonexamen">{boton}</button>
-            </a>
-        </div>
-        </>
-    )
+import { GatsbyImage } from 'gatsby-plugin-image';
+import { Link } from "gatsby"
+
+const Card=({imagen, piefoto, titulo, descripcion, enlace})=>{
+return(
+  <>
+  <div className="cardexamen">
+    <figure>
+      <GatsbyImage image={imagen} alt={piefoto} />
+    </figure>
+    <h2>{titulo}</h2>
+    <p>{descripcion}</p>
+    <Link to= {enlace} className="link"><button className="botonexamen">+ Info</button></Link>
+  </div>
+  </>
+)
 }
-export default Cards
+export default Card
